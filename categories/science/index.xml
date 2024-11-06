@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/science/</link>
+    <description>Recent content in Science on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Oct 2024 01:10:32 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insights Into Protein Engineering: Methods and Applications</title>
+      <link>http://localhost:1313/posts/protein/</link>
+      <pubDate>Thu, 31 Oct 2024 01:10:32 -0700</pubDate>
+      <guid>http://localhost:1313/posts/protein/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;div class=&#39;my-[120px] grid grid-cols-[63%_35%] gap-[5%] d:grid-cols-[100%] w-full&#39;&gt;&#xD;&#xA;    &lt;div class=&#39;bg-cover rounded-[12px] w-full  opacity-[0] shadow-[0px_1px_3px_1px_black] d:block hidden partBack customBg varAspect&#39; data-bg=&#39;protein1.jpg&#39;&gt;&lt;img src=&#39;http://localhost:1313/images/protein1.jpg&#39; class=&#39;hidden&#39; /&gt;&lt;/div&gt;&#xD;&#xA;    &lt;div&gt;&#xD;&#xA;&#x9;&#xD;&#xA;&lt;h2 class=&#39;text-[#e1e1e1] mb-[40px] mt-[120px] mx-[4vw]  font-[montserrat] text-[2.6vw]  d:text-[24px] d:mx-[2vw] d:mt-[40px] d:mb-[20px]&#39;&gt;What Is Protein Engineering?&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;&#x9;&#xD;&#xA;&lt;p class=&#39;text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]&#39;&gt;Protein engineering is a powerful biotechnological process that focuses on creating new enzymes or proteins and improving the functions of existing ones by manipulating their natural macromolecular architecture&#xD;&#xA;&#x9;Each protein contains a unique genetically encoded sequence of amino acids. Protein synthesis occurs through translation and is based on mRNA codons.2 Scientists use recombinant DNA technology to modify codons and develop diverse proteins with potentially enriched activities.3 &#xD;&#xA;&#xD;&#xA;Genetic engineering technologies that enable cloning of any gene found in nature and DNA chemical synthesis have immensely contributed to the protein engineering field. In addition, technological advancements such as x-ray crystallography and computer modeling help researchers design amino acid sequences that fold into precise 3D structures, synthesizing proteins with specific properties.4 &#xD;&#xA;&#x9;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beautiful Bacteria: Mesmerizing Photomicroscopy of Earth’s Oldest Life-forms</title>
+      <link>http://localhost:1313/posts/bacteria/</link>
+      <pubDate>Tue, 29 Oct 2024 16:43:05 -0700</pubDate>
+      <guid>http://localhost:1313/posts/bacteria/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;div class=&#39;my-[120px] grid grid-cols-[63%_35%] gap-[5%] d:grid-cols-[100%] w-full&#39;&gt;&#xD;&#xA;    &lt;div class=&#39;bg-cover rounded-[12px] w-full  opacity-[0] shadow-[0px_1px_3px_1px_black] d:block hidden partBack customBg varAspect&#39; data-bg=&#39;bacteria1.jpg&#39;&gt;&lt;img src=&#39;http://localhost:1313/images/bacteria1.jpg&#39; class=&#39;hidden&#39; /&gt;&lt;/div&gt;&#xD;&#xA;    &lt;div&gt;&#xA;&#xD;&#xA;&lt;p class=&#39;text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]&#39;&gt;&#xA;For as long as humans have been alive, we have mistaken the limits of our sense-perception for the full extent of reality — thinking our galaxy the only one, because that was as far as we could see; thinking life impossible below 300 fathoms, because that was as far as we could reach — only to discover, as we wield our minds to develop prosthetic extensions of our senses, scales of complexity infinitely wider and vaster than we had imagined, full of wonders we could not conceive with our self-referential imagination.&#xA;&#xA;“I have observed many tiny animals with great admiration,” Galileo reported after converting his telescope into a compound microscope to reveal a cosmos inside the world, an exponent of life never before imagined.&#xA;&#xA;“I examined water in which I had steeped the pepper,” the artist turned scientist Robert Hooke wrote a generation later in his pioneering 1665 book Micrographia, “and as if I had been looking upon a Sea, I saw infinite of small living Creatures swimming and playing up and down in it, a thing indeed very wonderful to behold.”&#xA;&#xA;Within two centuries, Darwin had drawn a link of kinship between us and these tiny wonders. “Each living creature,” he wrote, “must be looked at as a microcosm — a little universe, formed of a host of self-propagating organisms, inconceivably minute and as numerous as the stars in heaven.”&#xA;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

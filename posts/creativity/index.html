@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<script src="/js/gsap.js"></script>
+	<script src="/js/scrolltrig.js"></script>
+	<script src="/js/Observer.js"></script>
+	<script src="/js/methods.js"></script>
+	<script src="/js/script.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style/style.css">
+	<link rel="stylesheet" href="/css/style/more.css">
+	<title>Blog</title>
+</head>
+<body class='mixin/button:rounded-[10px] mixin/button:bg-gradient-to-br mixin/button:from-[#6aa0f7] mixin/button:to-[#00307d] overflow-x-hidden'>
+<div id=scrollInd class='w-full h-[5px] bg-[#558fee] fixed top-[3px] z-[100] shadow-[0_1px_13px_2px_#558fee] origin-left'></div>
+<div class='wrapper h-[100vh] d:h-[80vh]'  id='headerOut'>
+  <div class='z-[0] bg-cover ml customBg' data-bg='back.jpg' id='heroCover'><div class='w-full h-full bg-black opacity-[0.2]' id='coverFilter'></div></div>
+    <div class='ml grid grid-rows-[45%_30%_25%] d:grid-rows-[25%_40%_35%]' id='headerIn'>
+      <h1 class=' text-[#7d7d7d] font-[montserrat] relative justify-self-center text-[68px] d:text-[50px] d:top-[0] self-center row-[1/2]' id='headerTitle'>Your Blog</h1>
+      <p class=' text-[#9a9a9a] font-[poppins] relative mx-[30px] justify-self-center text-[30px] text-center d:text-[17px] row-[2/3]' id='headerSub'>porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci</p>
+      <div class='justify-self-center relative h-fit row-[3/4]' id=intouch >
+          <a href=# class='text-[24px] font-[poppins] text-[white] h-fit p-[14px] d:text-[18px] d:p-[8px] relative mixin/button gsapFadeOnScroll'>Get in touch</a>
+      </div>
+    </div>
+</div>
+<div class='w-full relative  bg-[#252b37]'>
+
+<script src='/js/single.js'></script>
+<article class='p-[5%]'>
+		  	<div class='grid grid-cols-[35%_65%] d:grid-cols-[100%] gap-[5%] d:mt-[50px] w-full'>
+		  	  <div class='bg-cover rounded-[12px] w-full aspect-[1.2] self-center shadow-[0px_1px_3px_1px_black] d:mx-[5%] d:w-[90%] grid-col-[1/2] grid-row-[1/2] customBg opacity-[0] gsapFadeOnScroll' data-bg=mindfull.jpg></div>
+		  	  <div>
+		  	  	<h1 class='text-[#e1e1e1] m-[50px] font-[montserrat] text-[2.9vw] d:text-[29px] d:mx-[10px] gsapFadeOnScroll opacity-[0]'>5 Boring Ways to Become More Creative</h1>
+		  	  </div>
+		  	</div>
+		  			<p>
+
+<div class='my-[120px] w-full'>
+    <div>
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+	Creativity and crazy. They go together like ginger and beer, aged cheese and fine wine, impressionist painters and lead poisoning. One can hardly think of one without the other.
+
+Almost by definition, creativity is the opposite of boring. If something is creative, it’s because it triggers some degree of surprise or excitement within us—it reconfigures existence in ways we could not have previously imagined.
+
+Creative people are not boring. Creative work is not boring. Therefore, we assume that the secret to creative success must not be boring.
+
+I had a friend in college who wanted to be a famous novelist. After graduation, he bought a one-way ticket to Paris and intentionally became homeless for all of about three weeks, believing he had to suffer romantically to find inspiration for his art. A few years later, I met a guy in a punk band in Boston who insisted that his heroin usage wasn’t an addiction but part of his creative process, because, as he put it, “nothing good was ever written sober.”
+
+And, sure enough, if we look at history’s greatest creative geniuses, there’s anecdote after anecdote of them being absolutely fucking looney tunes. Igor Stravinsky believed he could only become inspired to write music if he did headstands. In the early days of Apple, Steve Jobs reportedly soaked his feet in the bathroom toilets to clear his mind before meetings. Vincent Van Gogh got in an argument with his flatmate, lopped his own ear off, and—not wanting it to go to waste—gift-wrapped the ear and gave it to his favorite prostitute as a memento.
+
+Yes, “boring” is the last word you would ever use to describe the world’s creative geniuses. And indeed, their work is anything but.
+
+But I’m going to argue something different. I’m going to argue that the process of creativity is actually quite boring. And, because it is boring, creativity itself is repeatable. It’s something you and I and anyone else can practice and become good at.1
+
+Because while the person and the work may be anything but boring, history and science teach us that the process that generates great work… is totally boring.
+
+And that’s good news for us.
+</p>
+
+
+<h2 class='text-[#e1e1e1] mb-[40px] mt-[120px] mx-[4vw]  font-[montserrat] text-[2.6vw]  d:text-[24px] d:mx-[2vw] d:mt-[40px] d:mb-[20px]'>
+What Does It Mean to be “Creative” Anyway?
+</h2>
+
+
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+Creativity is a delicate dance between novelty and value.2 For something to feel creative it must feel both new but also useful in some way.
+
+Although we think of creativity as creating something that is unique, most of it isn’t. In fact, most of what we experience as being “new” is simply taking old stuff and remixing it in fresh or unexpected ways.3
+
+For example, the chord progression of the 17th century composer Johann Pachabel’s “Canon in D” has been refurbished with modern instruments hundreds of times to produce dozens of hit songs just in the last few decades.
+Most innovative films or books take old plot-points of their genre and add some sort of new twist or unexpected dynamic. For example, one of the reasons why the show Breaking Bad was so successful was that it took a generic story about the drug trade and replaced the main character with a middle-class white dude that most Americans could relate to. Simply exchanging this one element created a seemingly entirely new and novel story.
+
+Researchers call this “divergent thinking” and it’s one of the best predictors of measurable creativity as well as one of the best skills to learn if you want to be more creative.4 Instead of asking yourself, “How do I create something new?” ask yourself, “How can I change something old to make it feel new?”
+
+Even my own creativity has followed this path. One of the most common criticisms of my books is that I didn’t “come up” with most of the advice I give.
+
+Well… of course I didn’t! You really think I’m going to compete with Aristotle and The Buddha? This advice has been around for thousands of years. I simply repackaged it in interesting and novel ways, changed the emphasis on a few points, and added a couple of my own ideas to spice things up. Instead of focusing on happiness and positivity, I focus on pain. Instead of selling desperate people a vision of success, I help people question their definition of success. Instead of trying to sound like an authoritative dickface, I use phrases like “authoritative dickface.”
+
+And this has worked. The millions of people out there who aren’t into mushy, woo-woo, feel-good self-help crap really appreciate the novelty of the way I write.
+
+Which brings us to the second part of creative work: adding value. Creative work isn’t creative just because it’s “new”—it’s also creative because it adds some sort of value to the world.
+
+I could write an hour-long symphony composed of nothing but armpit farts or invent a new “diet drink” that consists of belly button lint and water. And while these things would certainly be “novel,” they definitely wouldn’t be valuable. Therefore, we wouldn’t consider them to be particularly creative.
+
+For stuff that adds value but isn’t new, we generally consider it to be a rip-off of something or someone else. Think of the movies that Hollywood remakes eighteen times—you still pay to go see them, even though you know there’s probably nothing creative or original about them.
+On the other hand, stuff that’s novel but doesn’t add value, we see as crude, tasteless, and immature. See: armpit fart symphonies and belly button lint water.
+
+Nailing the combination of novelty and value is difficult. It requires a lot of trial and error. It requires getting feedback from people. It requires understanding your audience and their values. It requires honing and perfecting your craft over many years of practice.5
+
+And this is where the hard work of creativity comes in. For every genius symphony or mind-melting tech gadget, there are dozens, if not hundreds, of failed ideas. For every hit song, that band probably has half a dozen albums that no one has heard of. For every scientific breakthrough, there have been hundreds of theories that have been proven to be wrong.
+
+Creativity is, in reality, hard work. And like all hard work, optimal creativity requires some degree of routine and repeatability.
+
+And that is why creativity is secretly kinda boring.
+
+It turns out that creativity is a skill. And like any skill, you can practice and get better at it. In fact, just learning about creativity and how it works can help.6
+
+So here are some of the not-so-exciting-but-also-really-fucking-important things you can do to be more creative in your own life.
+</p>
+
+
+<h2 class='text-[#e1e1e1] mb-[40px] mt-[120px] mx-[4vw]  font-[montserrat] text-[2.6vw]  d:text-[24px] d:mx-[2vw] d:mt-[40px] d:mb-[20px]'>
+1. Focus on Doing the Work, Not Flashes of Inspiration
+</h2>
+
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+	Charles Darwin’s theory of natural selection was published over 160 years ago and is still considered one of—if not the—most innovative ideas in the history of science.
+
+But Darwin never really had an “aha” moment about natural selection. There was no light bulb that went off in his head.
+
+The truth is rather boring: Darwin studied thousands of different species of plants and animals across multiple continents for several decades. He took notes, drew pictures, traveled around, talked to locals and other scientists, then he wrote in his journal about what he saw.
+
+He came up with the theory of natural selection piece by piece over many years of quiet study.7 And even once he had a mostly-formed theory, he sat on it for a while to think it through. He corresponded with other scientists to get their feedback. Then he set to publish his theory, spending many years writing his most famous work, On the Origin of Species. 
+</p>
+
+</div>
+</div>
+
+
+<div class='my-[120px] grid grid-cols-[63%_35%] gap-[5%] d:grid-cols-[100%] w-full'>
+    <div class='bg-cover rounded-[12px] w-full  opacity-[0] shadow-[0px_1px_3px_1px_black] d:block hidden partBack customBg varAspect' data-bg='creativity1.jpg'><img src='/images/creativity1.jpg' class='hidden' /></div>
+    <div>
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+	In all, Darwin spent over twenty years of his life coming up with natural selection.
+
+As often happens, afterward, many people attempted to attribute natural selection to a stroke of Darwin’s genius. But this chafed the old scientist. He had just spent his entire adult life collecting data from obscure places and trying to make sense of it, yet here people were, wanting to believe he’d made up his theory out of thin air. He repeatedly emphasized the amount of work that went into his new theory.
+This attitude of “shut up and get to work” seems to be held by most of the creative greats. Stephen King’s secret to literary success, in his own words, is simply writing 3,000 words a day, no matter what, and then deleting whatever is bad (which is most of it).8
+
+Before they hit it big, The Beatles played five or six hours per night, every night, for almost two years as an unknown bar band in German night clubs. Lennon and McCartney later attributed their incredible prolificacy and meteoric rise to fame to this marathon of practice and performance. The Beatles would go on to release thirteen studio albums in the span of eight years, with every single one of them going platinum.
+The idea that creativity happens due to some lightning strike of inspiration is a myth. Inspiration happens during the work, not before it. As the famous portrait artist Chuck Close put it: “Inspiration is for amateurs. The rest of us just show up and get to work. Every great idea I’ve ever had grew out of work itself.”
+</p>
+
+</div>
+    <div class='bg-cover rounded-[12px] w-full  opacity-[0] shadow-[0px_1px_3px_1px_black] d:hidden block partBack customBg varAspect' data-bg='creativity1.jpg'><img src='/images/creativity1.jpg' class='hidden' /></div>
+</div>
+
+
+<div class='my-[10px] grid grid-cols-[35%_65%] gap-[5%] d:grid-cols-[100%] w-full'>
+    <div class='bg-cover rounded-[12px] w-full  opacity-[0] shadow-[0px_1px_3px_1px_black] partBack customBg varAspect' data-bg='creativity2.jpg'><img src='/images/creativity2.jpg' class='hidden' /></div>
+    <div>
+	
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>Creative people don’t “find time” to be creative—they put in the time to be creative.
+
+It’s no surprise, then, that when you look at the creative geniuses throughout history to find commonalities, the most glaringly obvious one is that they simply worked their asses off more than most people, and longer than most people. There’s almost a direct correlation between how much someone created and how original their work ended up being.
+Mozart and Beethoven each composed more than 600 pieces of music. Most of their contemporaries composed fewer than 100 in their careers.
+Picasso produced so many pieces that art scholars still can’t even count them all. Some estimate that he created more than 50,000 pieces of art over the course of his life. Most other professional artists produced a few hundred to a couple thousand at most.
+Mark Twain wrote 22 novels, hundreds of short stories, dozens of nonfiction books full of essays, memoirs and satire, a book of poetry, and an autobiography. In all, Twain published almost eighty books in less than fifty years, a staggering level of output for any author.
+Studies show that Nobel prize winners produce nearly twice as much work compared to their colleagues in the same fields.9
+
+It turns out that the secret to the creative “greats” throughout history is less that they were creative geniuses and more that they were work-ethic geniuses.
+
+To use a basketball analogy, these people scored the most points not because they couldn’t miss, but because they took the most shots.
+
+The nature of history and human memory is that we remember what is great and forget the rest. It’s easy to assume that someone like Twain or Picasso simply produced a few brilliant works, when the reality is that they slogged away at their craft for decades to end up with a handful of classics that we revere today.10
+
+Or, as Einstein once put it, “It’s not that I’m so smart, I just sit with the problems longer.”
+</p>
+
+</div>
+</div>
+
+
+<div class='my-[120px] grid grid-cols-[63%_35%] gap-[5%] d:grid-cols-[100%] w-full'>
+    <div class='bg-cover rounded-[12px] w-full  opacity-[0] shadow-[0px_1px_3px_1px_black] d:block hidden partBack customBg varAspect' data-bg='creativity3.jpg'><img src='/images/creativity3.jpg' class='hidden' /></div>
+    <div>
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+2. Do “Normal” Things
+At the beginning of the article, I mentioned some famous creative people who did some… err, creative things in their lives. Creative geniuses are often stereotyped as eccentrics and weirdos. And sure, sometimes they are.
+
+But usually, they’re not.
+
+Ernest Hemingway is probably one of the most popular American authors in the past century. His writing style has been emulated by everyone from high school English teachers to aspiring novelists to advertising copywriters. People like to picture Hemingway pecking away at a typewriter in some dark bungalow in Cuba in the middle of the night next to a bottle of rum. And while that’s probably what he did in his later years, the reality for most of his life was much more pedestrian.
+He cut his writing chops as a newspaper reporter in Kansas City before he left for the Italian front during World War I to be an ambulance driver. After the war, he was a foreign correspondent for several different news publications which supported him while he wrote some of his most famous works on the side.
+
+Put another way: the dude had a day job during most of his literary career.
+
+This is more common than most people think. Salman Rushdie was a copywriter for a big New York ad agency, writing some of the industry’s most classic campaigns during the day and working on his novels at night.
+
+Andy Warhol worked in the ad department of a magazine and was a designer for a shoe manufacturer. It was in these jobs that he experimented with many of the techniques that would later come to define his now-famous design style.
+
+Most of the internet would have you believe that boring, stable jobs somehow kill creativity. But in many cases, the boring corporate life actually allowed these people to put food on the table and hone their crafts at the same time.
+</p>
+
+</div>
+    <div class='bg-cover rounded-[12px] w-full  opacity-[0] shadow-[0px_1px_3px_1px_black] d:hidden block partBack customBg varAspect' data-bg='creativity3.jpg'><img src='/images/creativity3.jpg' class='hidden' /></div>
+</div>
+
+
+<div class='my-[10px] grid grid-cols-[35%_65%] gap-[5%] d:grid-cols-[100%] w-full'>
+    <div class='bg-cover rounded-[12px] w-full  opacity-[0] shadow-[0px_1px_3px_1px_black] partBack customBg varAspect' data-bg='creativity4.jpg'><img src='/images/creativity4.jpg' class='hidden' /></div>
+    <div>
+
+<h2 class='text-[#e1e1e1] mb-[40px] mt-[120px] mx-[4vw]  font-[montserrat] text-[2.6vw]  d:text-[24px] d:mx-[2vw] d:mt-[40px] d:mb-[20px]'>3. Be Bored, Not Distracted</h2>
+
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+Perhaps the most boring of boring ways to be less boring and more creative is… boredom itself.
+
+Staring at the blank page when you’d rather stare at your phone. Sitting in front of the canvas when you’d rather sit in front of the TV. Coding apps when you’d rather eat apps at Outback Steakhouse.11
+Plato wrote that boredom is the mother of all invention. Our minds become creative because it helps us avoid the inherent anxiety of our own existence.
+
+When you’re bored with nothing else to do, you’re faced with the realization that you have the agency to choose what your life will be in that moment. And as empowering as that thought might seem, it’s also really fucking scary.
+
+</p>
+
+</div>
+</div>
+
+
+
+<div class='my-[120px] w-full'>
+    <div>
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+	Do I try something new? Something that might help me but might not? Something I might be good at…or completely fail at? Do I just sit here? OH MY GOD, MAKE IT STOP. WHERE’S MY PHONE???
+
+Modern society, with all its flashy gizmos (and Bloomin’ Onions), has gotten really good at distracting us from this boredom and anxiety.
+
+But in the right environment, it’s that very same boredom and that very same anxiety that fuels creative people.12,13 Rather than turning away from the existential dread that boredom thrusts upon them with distractions, they use it to create something.
+
+When leveraged into action, anxiety can be one hell of a creative muse if you stare it in the face.14
+
+Two years ago, when I was writing Everything is F#cked: A Book About Hope, I signed up for a co-working space near my apartment. It felt stupid, but there were just too many distractions at home. Each day I’d go to the co-working space, leaving my phone at home. I set up my laptop to block all social media and distractions. Then, once there, I’d sit in a painful paralysis that would last anywhere from a few minutes to a few hours until I began to write.
+What I learned that year was that there is no difference between inspiration and lack of distraction. They are the same thing.
+</p>
+
+
+<h2 class='text-[#e1e1e1] mb-[40px] mt-[120px] mx-[4vw]  font-[montserrat] text-[2.6vw]  d:text-[24px] d:mx-[2vw] d:mt-[40px] d:mb-[20px]'>4. Find the Most Creative People in Your Field and Steal From Them</h2>
+
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+	Many people dream of coming up with that one thing that’s so original and unique that everyone will have no choice but to drop everything and stare slack-jawed at their genius. They’re so motivated by the idea of coming up with the next big song/design/product/whatever that they sit around waiting until they find that one thing that will set them apart from all others.
+
+…and they end up waiting around forever and not doing anything.
+
+Picasso famously said, “Good artists borrow, great artists steal.” What he meant by that was that there’s nothing truly new out there, and great artists understand that. They understand that creativity isn’t an invention, it’s a reinvention. 
+
+Research suggests that the process of creativity starts first with immersing yourself in the domain you’re interested in.15 That means: first, study your ass off. Before adding something novel (and valuable!) to any body of work, you first have to know what that body of work is and get good enough to at least emulate it, if not surpass it.
+
+Musicians do this when they learn other people’s songs. Writers do this when they read other writers’ books and try to write more like them. Painters do this when they try to emulate their favorite painter. Entrepreneurs do this when they copy an already-successful business model and tweak it.
+
+This lays the foundation for the rest of the creative process, providing a well of knowledge and experience in the elements of the trade that can be remixed with each other to come up with new creative work in itself. Creativity is as much immersing yourself in your chosen field as it is contributing to and advancing it.
+
+Steve Jobs didn’t invent the personal computer. He didn’t invent the mouse or graphical interfaces. He didn’t invent MP3 players or smartphones. He didn’t invent tablets or laptops or wearables. He literally invented nothing.
+
+He just did old things better.
+
+Find people who you want to emulate and start emulating them. Get a job or an apprenticeship with someone who has a lot more experience than you, do everything they tell you to do—then do more on your own.16
+
+You don’t develop your own style or voice ex nihilo. You develop it by first understanding somebody else’s style and voice, and then differentiating yourself from it to create your own.
+</p>
+
+
+
+<h2 class='text-[#e1e1e1] mb-[40px] mt-[120px] mx-[4vw]  font-[montserrat] text-[2.6vw]  d:text-[24px] d:mx-[2vw] d:mt-[40px] d:mb-[20px]'>5. Treat Ideas Like Investments: Buy Low, Sell High</h2>
+
+
+<p class='text-[#e1e1e1] leading-[1.9] mb-[50px] mx-[4vw] font-[cardo] text-[1.6vw] d:text-[17px] d:mb-[25px] d:mx-[2vw]'>
+The investing world is definitely not known for being a hotbed of creativity. Stocks, bonds, interest rates, taxes, quarterly reports, annual reports, annuities, financial planners, inflation adjustments… I’m getting sleepy just writing this.
+
+All of that might bore you to the point that you want to stab yourself with a rusty spoon, but the golden rule of investing—buy low, sell high—can actually teach us something about creativity.
+
+Obviously, when you make a financial investment of any kind, your goal is to buy it at the lowest price you can get and sell it at the highest price you can get, pocketing the difference.
+
+To do this, savvy investors often look for investment opportunities where the business’s potential and the public perception are mismatched. That is, they try to buy companies that are more valuable than most people believe they are, and then sell them once the market’s perception of the company becomes more accurate.
+
+Art shares a lot of similarities with undervalued stocks.17 At first, when people hear of a novel idea, a lot of them will laugh it off as ridiculous, outlandish, unnecessary, or just plain dumb. It’s here that the artist “buys” the idea at its low value, then finds a way to refurbish and “flip it” into something of higher value that the world understands and appreciates.
+
+Indie punk was an obscure sub-genre of angry teenagers until Kurt Cobain “flipped it” into mainstream grunge rock. Personal computers were seen as overly expensive and impractical until Bill Gates created software that was simple and universal enough for everyone to see them as valuable.
+
+And this is why I ultimately laugh when I receive the criticism, “You didn’t come up with any of this stuff!”
+
+Of course I didn’t. But did you think to read 700 pages of German philosophy and summarize the main points in an article? Did you repackage existentialist arguments for responsibility in the information age? Did you find awesome stories about crazy World War II heroes nobody’s ever heard of and tell them with the perfect balance of F-bombs and awe?
+
+I didn’t think so. And that’s because I’m doing the artistic work of buying low and selling high.
+
+As dull and soul-destroying as the analogy may be, it’s true. Understand your market. Learn to spot undervalued ideas and assets. Develop the skill to repurpose them into something people enjoy and value.
+
+Voila. That’s creativity.
+</p>
+
+</div>
+</div>
+</p>
+ 
+		  </article>
+<div class='mt-[100px] d:mt-[30px]'>
+			<div class='flex flex-row flex-wrap '>
+				
+				
+				
+				
+				    
+				    <div class='overflow-hidden bg-cover shadow-[1px_0px_8px_2px_#1d1d1d] rounded-[5px] w-[24%] d:w-[40%] aspect-[0.9] m-[4%] grid grid-rows-[70%_30%] d:grid-rows-[60%_40%] opacity-[0] cursor-pointer ourPick gsapFadeOnScroll customBg' data-bg='protein.jpg'>
+				    	<div class='row-[2/3] bg-[#262d3899] d:grid'>
+				    		<h2 class='text-[1.5vw] d:text-[14px]  self-center text-center text-[white] font-[poppins] leading-[1.5] mt-[20px] mx-[20px]'>Insights Into Protein Engineering: Methods and Applications
+				    </h2>
+				    	</div>
+				    </div>
+				    
+				    
+				
+				    
+				    <div class='overflow-hidden bg-cover shadow-[1px_0px_8px_2px_#1d1d1d] rounded-[5px] w-[24%] d:w-[40%] aspect-[0.9] m-[4%] grid grid-rows-[70%_30%] d:grid-rows-[60%_40%] opacity-[0] cursor-pointer ourPick gsapFadeOnScroll customBg' data-bg='mindfull.jpg'>
+				    	<div class='row-[2/3] bg-[#262d3899] d:grid'>
+				    		<h2 class='text-[1.5vw] d:text-[14px]  self-center text-center text-[white] font-[poppins] leading-[1.5] mt-[20px] mx-[20px]'>Silent Storms: How Mindfulness Helped Me Reclaim My Self-Worth
+				    </h2>
+				    	</div>
+				    </div>
+				    
+				    
+				
+				    
+				    <div class='overflow-hidden bg-cover shadow-[1px_0px_8px_2px_#1d1d1d] rounded-[5px] w-[24%] d:w-[40%] aspect-[0.9] m-[4%] grid grid-rows-[70%_30%] d:grid-rows-[60%_40%] opacity-[0] cursor-pointer ourPick gsapFadeOnScroll customBg' data-bg='success.jpg'>
+				    	<div class='row-[2/3] bg-[#262d3899] d:grid'>
+				    		<h2 class='text-[1.5vw] d:text-[14px]  self-center text-center text-[white] font-[poppins] leading-[1.5] mt-[20px] mx-[20px]'>The 5 Principles of Moonlighting Success
+				    </h2>
+				    	</div>
+				    </div>
+				    
+				    
+				
+				    
+				    <div class='overflow-hidden bg-cover shadow-[1px_0px_8px_2px_#1d1d1d] rounded-[5px] w-[24%] d:w-[40%] aspect-[0.9] m-[4%] grid grid-rows-[70%_30%] d:grid-rows-[60%_40%] opacity-[0] cursor-pointer ourPick gsapFadeOnScroll customBg' data-bg='planning.jpg'>
+				    	<div class='row-[2/3] bg-[#262d3899] d:grid'>
+				    		<h2 class='text-[1.5vw] d:text-[14px]  self-center text-center text-[white] font-[poppins] leading-[1.5] mt-[20px] mx-[20px]'>16 Easy Steps for Planning Your Next Trip
+				    </h2>
+				    	</div>
+				    </div>
+				    
+				    
+				
+				    
+				
+				    
+				    <div class='overflow-hidden bg-cover shadow-[1px_0px_8px_2px_#1d1d1d] rounded-[5px] w-[24%] d:w-[40%] aspect-[0.9] m-[4%] grid grid-rows-[70%_30%] d:grid-rows-[60%_40%] opacity-[0] cursor-pointer ourPick gsapFadeOnScroll customBg' data-bg='bacteria.jpg'>
+				    	<div class='row-[2/3] bg-[#262d3899] d:grid'>
+				    		<h2 class='text-[1.5vw] d:text-[14px]  self-center text-center text-[white] font-[poppins] leading-[1.5] mt-[20px] mx-[20px]'>Beautiful Bacteria: Mesmerizing Photomicroscopy of Earth’s Oldest Life-forms
+				    </h2>
+				    	</div>
+				    </div>
+				    
+				    
+				
+			</div>
+		</div>
+
+</div>
+<div class='h-[300px] w-full grid bg-[#444c5a] grid-cols-[50%_50%] d:grid-cols-[100%] d:grid-rows-[70%_30%] d:h-fit relative z-[2]' id='foot'>
+	<div class='p-[40px] mixin:text-[white] mixin:opacity-[0] mixin:font-[poppins]'>
+		<h1 class='mixin text-[2.7vw] d:text-[24px] mb-[15px] gsapFadeOnScroll'>About the blog</h1>
+		<p class='mixin text-[1.2vw] leading-[1.9] w-[90%] d:text-[16px] gsapFadeOnScroll'>This is a template of a blog consists of random informative blog posts from around the internet built with hugo generator you can have your own blog <a href='#'>here</a></p>
+	</div>
+	<div class='justify-self-center  d:relative d:mt-[40px] d:mb-[40px] self-center w-[90%] d:w-[70%] m:w-[70%] h-[20px] m:h-[40px] grid grid-cols-[85%_15%] opacity-[0] gsapFadeOnScroll' id='footSearch'>
+		<input class='h-full  inline-block rounded-[5px] px-[2%] py-[1%] text-[2.2vw] m:text-[1.8vw] font-[poppins] outline-none' placeholder='search'>
+		<a href='#' class='h-full inline-block justify-self-center'><div class='customBg bg-cover h-full aspect-[1] relative top-[3px]' data-bg='search.svg'></div></a>
+	</div>
+</div>
+
+</body>
+</html>

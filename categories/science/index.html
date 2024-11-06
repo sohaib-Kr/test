@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<script src="/js/gsap.js"></script>
+	<script src="/js/scrolltrig.js"></script>
+	<script src="/js/Observer.js"></script>
+	<script src="/js/methods.js"></script>
+	<script src="/js/script.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style/style.css">
+	<link rel="stylesheet" href="/css/style/more.css">
+	<title>Blog</title>
+</head>
+<body class='mixin/button:rounded-[10px] mixin/button:bg-gradient-to-br mixin/button:from-[#6aa0f7] mixin/button:to-[#00307d] overflow-x-hidden'>
+<div id=scrollInd class='w-full h-[5px] bg-[#558fee] fixed top-[3px] z-[100] shadow-[0_1px_13px_2px_#558fee] origin-left'></div>
+<div class='wrapper h-[100vh] d:h-[80vh]'  id='headerOut'>
+  <div class='z-[0] bg-cover ml customBg' data-bg='back.jpg' id='heroCover'><div class='w-full h-full bg-black opacity-[0.2]' id='coverFilter'></div></div>
+    <div class='ml grid grid-rows-[45%_30%_25%] d:grid-rows-[25%_40%_35%]' id='headerIn'>
+      <h1 class=' text-[#7d7d7d] font-[montserrat] relative justify-self-center text-[68px] d:text-[50px] d:top-[0] self-center row-[1/2]' id='headerTitle'>Your Blog</h1>
+      <p class=' text-[#9a9a9a] font-[poppins] relative mx-[30px] justify-self-center text-[30px] text-center d:text-[17px] row-[2/3]' id='headerSub'>porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci</p>
+      <div class='justify-self-center relative h-fit row-[3/4]' id=intouch >
+          <a href=# class='text-[24px] font-[poppins] text-[white] h-fit p-[14px] d:text-[18px] d:p-[8px] relative mixin/button gsapFadeOnScroll'>Get in touch</a>
+      </div>
+    </div>
+</div>
+<div class='w-full relative  bg-[#252b37]'>
+
+<div class='my-[300px] d:mt-[30px]'>
+			<div class='flex flex-row flex-wrap '>
+
+
+				    <div class='overflow-hidden bg-cover shadow-[1px_0px_8px_2px_#1d1d1d] rounded-[5px] w-[24%] d:w-[40%] aspect-[0.9] m-[4%] grid grid-rows-[70%_30%] d:grid-rows-[60%_40%] opacity-[0] cursor-pointer ourPick gsapFadeOnScroll customBg pseudoLink' data-link='/posts/protein/' data-bg='protein.jpg'>
+				    	<div class='row-[2/3] bg-[#262d3899] d:grid'>
+				    		<h2 class='text-[1.5vw] d:text-[14px]  self-center text-center text-[white] font-[poppins] leading-[1.5] mt-[20px] mx-[20px]'>Insights Into Protein Engineering: Methods and Applications
+				    </h2>
+				    	</div>
+				    </div>
+
+
+				    <div class='overflow-hidden bg-cover shadow-[1px_0px_8px_2px_#1d1d1d] rounded-[5px] w-[24%] d:w-[40%] aspect-[0.9] m-[4%] grid grid-rows-[70%_30%] d:grid-rows-[60%_40%] opacity-[0] cursor-pointer ourPick gsapFadeOnScroll customBg pseudoLink' data-link='/posts/bacteria/' data-bg='bacteria.jpg'>
+				    	<div class='row-[2/3] bg-[#262d3899] d:grid'>
+				    		<h2 class='text-[1.5vw] d:text-[14px]  self-center text-center text-[white] font-[poppins] leading-[1.5] mt-[20px] mx-[20px]'>Beautiful Bacteria: Mesmerizing Photomicroscopy of Earth’s Oldest Life-forms
+				    </h2>
+				    	</div>
+				    </div>
+
+</div>
+</div>
+
+</div>
+<div class='h-[300px] w-full grid bg-[#444c5a] grid-cols-[50%_50%] d:grid-cols-[100%] d:grid-rows-[70%_30%] d:h-fit relative z-[2]' id='foot'>
+	<div class='p-[40px] mixin:text-[white] mixin:opacity-[0] mixin:font-[poppins]'>
+		<h1 class='mixin text-[2.7vw] d:text-[24px] mb-[15px] gsapFadeOnScroll'>About the blog</h1>
+		<p class='mixin text-[1.2vw] leading-[1.9] w-[90%] d:text-[16px] gsapFadeOnScroll'>This is a template of a blog consists of random informative blog posts from around the internet built with hugo generator you can have your own blog <a href='#'>here</a></p>
+	</div>
+	<div class='justify-self-center  d:relative d:mt-[40px] d:mb-[40px] self-center w-[90%] d:w-[70%] m:w-[70%] h-[20px] m:h-[40px] grid grid-cols-[85%_15%] opacity-[0] gsapFadeOnScroll' id='footSearch'>
+		<input class='h-full  inline-block rounded-[5px] px-[2%] py-[1%] text-[2.2vw] m:text-[1.8vw] font-[poppins] outline-none' placeholder='search'>
+		<a href='#' class='h-full inline-block justify-self-center'><div class='customBg bg-cover h-full aspect-[1] relative top-[3px]' data-bg='search.svg'></div></a>
+	</div>
+</div>
+
+</body>
+</html>

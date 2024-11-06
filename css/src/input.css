@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+  }
+  .ml {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+@font-face {
+  font-family: poppins;
+  src: url(../../fonts/Poppins.ttf);
+}
+
+@font-face {
+  font-family: montserrat;
+
+  src: url(../../fonts/montserrat.ttf);
+}
+
+@font-face {
+  font-family: cardo;
+
+  src: url(../../fonts/cardo.ttf);
+}
+

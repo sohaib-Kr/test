@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss build -i src/input.css -o style/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.10",
+    "tailwindcss-mixins": "^0.0.11"
+  },
+  "devDependencies": {},
+  "description": ""
+}

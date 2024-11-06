@@ -1,0 +1,40 @@
+.main{
+	transition:background-color 0.3s;
+}
+.main:hover{
+	background-color:#2f3848;
+}
+.main:hover .cover{
+	transform:scale(1.1);
+}
+.cover{
+	transition:transform 0.5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  30% {opacity:0;}
+  100% {opacity:1;}
+}
+#intouch{
+	animation:fadeIn 3s;
+	animation-fill-mode:forwards;
+}
+span{
+	opacity:0;
+}
+#headerTitle span,#headerSub span{
+	opacity:1;
+}
+.ourPick div{
+	transition:background-color 0.3s;
+}
+.ourPick:hover div{
+	background-color:#14161a99;
+}
+#signBor{
+	clip-path:path('M 50% 50% L 50% -20% A 400 50% -20% 1 0 50% -20% Z');
+	clip-path:path('M 50 50 L 50 -20 A 400 50 -20 1 0 50 -20 Z');
+}
+#heroCover{
+	background-image:url("../images/back.jpg" )
+}
